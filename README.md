@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/am8pxoru5gaby6dl?svg=true)](https://ci.appveyor.com/project/Professor-Severus-Snape/ra-components)
+
 # Страница интернет-магазина
 
 Необходимо создать React-компонент `ShopItemFunc` (функциональный компонент) и `ShopItemClass` (class-based компонент) с помощью которых мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
