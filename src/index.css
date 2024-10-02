@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+@import url("https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic");
 
 body,
 html {
@@ -24,12 +24,12 @@ h3 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content:  space-between;
+  justify-content: space-between;
 }
 
 h1 {
   letter-spacing: 0px;
-  letter-spacing: .02rem;
+  letter-spacing: 0.02rem;
   font-size: 48px;
   font-size: 3rem;
   text-transform: uppercase;
@@ -62,8 +62,8 @@ h3 {
   transform: translateX(45px);
   border: 2px solid #fff;
   outline: 2px solid #ccc;
-  -webkit-transition: -webkit-transform .3s ease;
-  transition: transform .3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .color-a {
@@ -106,15 +106,15 @@ button {
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   text-transform: uppercase;
 }
 
 button:hover {
   background: #555;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .color-options {
@@ -140,7 +140,7 @@ button:hover {
 
 .small {
   font-size: 11px;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #999;
   margin-top: 10px;
 }
@@ -173,7 +173,7 @@ button:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  line-height: .9em;
+  line-height: 0.9em;
 }
 
 .range-picker div {
@@ -197,8 +197,8 @@ button:hover {
   -ms-flex-pack: center;
   justify-content: center;
   height: 30px;
-  -webkit-transition: background .5s ease;
-  transition: background .5s ease;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 .range-picker .active:hover {
@@ -234,8 +234,8 @@ button:hover {
 
 .range-picker div:hover {
   background: #eee;
-  -webkit-transition: background .2s;
-  transition: background .2s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
 }
 
 .range-picker div:first-child {
@@ -245,7 +245,6 @@ button:hover {
 .range-picker div.active:first-child {
   border-left: 1px solid #333;
 }
-
 
 @media (max-width: 850px) {
   body {
@@ -257,7 +256,8 @@ button:hover {
     font-size: 2rem;
   }
 
-  h3, h2 {
+  h3,
+  h2 {
     font-size: 1rem;
   }
 

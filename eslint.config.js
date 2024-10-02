@@ -32,7 +32,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      "react/prop-types": "off", // error -> 'item' is missing in props validation
+      // 'react/prop-types': 'off', // error -> 'item' is missing in props validation
+      semi: ["error", "always"],
+      indent: ["error", 2],
     },
   },
-]
+];
