@@ -1,8 +1,9 @@
 {
-  "name": "test-react",
+  "name": "react-components",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "author": "professor-severus-snape",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

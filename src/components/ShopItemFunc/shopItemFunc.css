@@ -42,7 +42,7 @@
   height: 100%;
   opacity: 0;
   filter: alpha(opacity=0);
-  background: url("./assets/item-black.jpg");
+  background: url("../../assets/item-black.jpg");
   background-size: cover;
   -webkit-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
